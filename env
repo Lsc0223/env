@@ -1,7 +1,7 @@
 # GitHub API tokens配置 (逗号分隔)
 # 在 https://github.com/settings/tokens 创建token
 # GitHub API tokens配置 (逗号分隔)
-GITHUB_TOKENS=
+GITHUB_TOKENS=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
 # 请求代理，多个使用逗号分隔
 PROXY=
 
@@ -27,10 +27,9 @@ GEMINI_BALANCER_SYNC_ENABLED=false
 GEMINI_BALANCER_URL=
 GEMINI_BALANCER_AUTH=
 
-GPT_LOAD_SYNC_ENABLED=false
-GPT_LOAD_URL=
-GPT_LOAD_AUTH=
-GPT_LOAD_GROUP_NAME=group1,group2,group3
-
+GPT_LOAD_SYNC_ENABLED=ture
+GPT_LOAD_URL=https://liu0223.alwaysdata.net/
+GPT_LOAD_AUTH=Lsc@0223
+GPT_LOAD_GROUP_NAME=gemini
 # 文件路径黑名单配置 (逗号分隔，用于跳过文档和示例文件)
 FILE_PATH_BLACKLIST=readme,docs,doc/,.md,example,sample,tutorial,test,spec,demo,mock
